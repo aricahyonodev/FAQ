@@ -5,47 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Week 4 - Skydu Academy</title>
 </head>
 
 <body>
+
     <main class="container">
         <article class="content">
-            <header class="header">
-                <img class="img-content" src="img/illustration-woman-online-desktop.svg" alt="">
-                <img class="img-content2" src="img/bg-pattern-desktop.svg" alt="">
-                <img class="img-box" src="img/illustration-box-desktop.svg" alt="">
-            </header>
+            <div class="header">
+                <img src="img/illustration-woman-online-mobile.svg" alt="">
+                <img src="img/bg-pattern-mobile.svg" alt="">
+                <img src="img/illustration-box-desktop.svg" alt="box-coklat.jpg" class="img-box">
+            </div>
             <div class="faq">
+                <h1>FAQ</h1>
                 <ul>
-                <li>
-                    <h1>FAQ</h1>
-                </li>
-                <li>
-                    How many team members can I invite?
-                    <img src="img/icon-arrow-down.svg" alt="">
-                </li>
-                <li>
-                    What is the maximum file upload size?
-                    <img src="img/icon-arrow-down.svg" alt="">
-                </li>
-                <li>
-                    How do I reset my password?
-                    <img src="img/icon-arrow-down.svg" alt="">
-                </li>
-                <li>
-                    Can I cancel my subscription?
-                    <img src="img/icon-arrow-down.svg" alt="">
-                </li>
-                <li>
-                    Do you provide additional support?
-                    <img src="img/icon-arrow-down.svg" alt="">
-                </li>
-            </ul>
+                    <li id="selectMemberTeam">
+                        How many team members can I invite?
+                        <img src="img/icon-arrow-down.svg" alt="icon-arrow-down.svg">
+                    </li>
+                    <li id="selectMaximumFile">
+                        What is the maximum file upload size?
+                        <img src="img/icon-arrow-down.svg" alt="icon-arrow-down.svg">
+
+                    </li>
+                    <li id="selectResetPassword">
+                        How do I reset my password?
+                        <img src="img/icon-arrow-down.svg" alt="icon-arrow-down.svg" onClick="reply_click(this.id)">
+                    </li>
+                    <li id="selectSubcription">
+                        Can I cancel my subscription?
+                        <img src="img/icon-arrow-down.svg" alt="icon-arrow-down.svg">
+                    </li>
+                    <li id="selectAdditionalSupport">
+                        Do you provide additional support?
+                        <img src="img/icon-arrow-down.svg" alt="icon-arrow-down.svg">
+                    </li>
+                </ul>
             </div>
         </article>
     </main>
+
+    <!-- JS -->
+    <script src="js/index.js"></script>
 </body>
 
 </html>

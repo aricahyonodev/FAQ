@@ -9,7 +9,7 @@ let text = {
 // style screes width
 function styleScreen() {
     let width = document.body.offsetWidth;
-    if (width >= 1250) {
+    if (width >= 1280) {
         let widthBox = width >= 1300 ? 7.5 + (((width - 1250) / 50) / 2) : 7.5;
         document.querySelector('.header img:nth-child(1').src = '../img/illustration-woman-online-desktop.svg';
         document.querySelector('.header img:nth-child(2').src = '../img/bg-pattern-desktop.svg';
@@ -18,6 +18,7 @@ function styleScreen() {
         document.querySelector('.header img:nth-child(3').style = 'display: none';
     }
 }
+
 // Rotate img Arrow
 function rotateImg(itemId,rotate) {
     document.querySelector('#'+itemId+' img').style = 'transform: rotate('+rotate+'deg)';
@@ -31,6 +32,7 @@ function addElementContent(itemId, textContent) {
     rotateImg(itemId, 180);
     document.getElementById(itemId).appendChild(newPNode);
     document.getElementById(itemId).style = 'font-weight : 700';
+    // document.getElementById(itemId).className = 'animated slideInDown';
     
 }
 

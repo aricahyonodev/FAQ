@@ -11,8 +11,8 @@ function styleScreen() {
     let width = document.body.offsetWidth;
     if (width >= 1280) {
         let widthBox = width >= 1300 ? 7.5 + (((width - 1250) / 50) / 2) : 7.5;
-        document.querySelector('.header img:nth-child(1').src = '../img/illustration-woman-online-desktop.svg';
-        document.querySelector('.header img:nth-child(2').src = '../img/bg-pattern-desktop.svg';
+        document.querySelector('.header img:nth-child(1').src = '/../img/illustration-woman-online-desktop.svg';
+        document.querySelector('.header img:nth-child(2').src = '/../img/bg-pattern-desktop.svg';
         document.querySelector('.header img:nth-child(3').style = 'left: ' + widthBox + 'rem';
     } else {
         document.querySelector('.header img:nth-child(3').style = 'display: none';

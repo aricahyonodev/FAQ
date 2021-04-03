@@ -88,8 +88,8 @@ p {
     padding: 125px 24px 50px 24px;
 }
 
-/* Style Dekstop */
-@media screen and (min-width: 1280px) {
+/* Style Dekstop/Laptop */
+@media screen and (min-width:1280px){
 
     .container {
         margin: 130px 15%;

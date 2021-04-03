@@ -32,8 +32,6 @@ function addElementContent(itemId, textContent) {
     rotateImg(itemId, 180);
     document.getElementById(itemId).appendChild(newPNode);
     document.getElementById(itemId).style = 'font-weight : 700';
-    // document.getElementById(itemId).className = 'animated slideInDown';
-    
 }
 
 // remove element <p> in content
@@ -71,7 +69,6 @@ function myFunction(e) {
 }
 
 // Generat all function in Here 
-styleScreen();
 var elements = document.getElementsByClassName("faq");
 for (var i = 0; i < elements.length; i++) {
     elements[i].addEventListener('click', myFunction);

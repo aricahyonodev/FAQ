@@ -83,6 +83,10 @@ p {
     top: 198px;
     left: 50%;
 }
+.header img:nth-child(3) {
+        visibility: hidden;
+    display: none;
+}
 
 .content {
     padding: 125px 24px 50px 24px;
@@ -120,7 +124,11 @@ p {
         top: -140px;
         z-index: 1;
     }
-
+.header img:nth-child(3) {
+        visibility: visible;
+        display: block;
+        
+}
     .img-box {
         position: absolute;
         top: 315px;

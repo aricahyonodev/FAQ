@@ -69,6 +69,11 @@ function myFunction(e) {
 // Generat all function in Here 
 styleScreen();
 var elements = document.getElementsByClassName("faq");
-for (var i = 0; i < elements.length; i++) {
-    elements[i].addEventListener('click', myFunction);
-}
+elements[0].addEventListener('click', function(event){
+  myFunction(event)
+});
+// for (var i = 0; i < elements.length; i++) {
+//     console.log(elements[i])
+//     console.log("halo"+i)
+
+// }
